@@ -3,6 +3,7 @@
   justify-content: space-evenly;
   position: relative;
   bottom: 3rem;
+<<<<<<< HEAD
 
   .card {
     width: 18rem;
@@ -26,4 +27,66 @@
 footer {
   text-align: center;
   margin: 4rem 0 0 0;
+=======
+  .card{
+      width:15rem;
+  }
+}
+.card-content {
+  display:flex;
+  justify-content: space-around;
+}
+.merchandising{
+  .title{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem;
+  }
+}
+footer{
+  text-align: center;
+  margin:4rem 0 0 0;
+}
+
+.supino {
+  order: 2;
+}
+
+.agachamento {
+  order: 3;
+}
+
+.levantamento-terra {
+  order: 4;
+}
+
+section:nth-child(even) {
+  background-color: #355392;
+  padding: 50px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(62, 13, 175, 0.486);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+footer a {
+  color: #d876bf;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+>>>>>>> f9049032629d050cca681e5fcd2f2c29ebf3114c
 }
